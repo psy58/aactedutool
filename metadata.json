@@ -1,0 +1,6 @@
+{
+  "name": "내 마음을 전해요 💬",
+  "description": "특수학급 학생을 위한 한국어 AAC(보완대체의사소통) 의사표현 및 문장 조합 도구",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

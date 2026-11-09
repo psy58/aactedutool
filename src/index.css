@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Sans KR', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Accessible focus ring across all clickable AAC cards and buttons */
+:focus-visible {
+  outline: 3px solid #3b82f6;
+  outline-offset: 3px;
+}
