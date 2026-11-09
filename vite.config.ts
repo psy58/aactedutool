@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // GitHub Pages 프로젝트 사이트 주소(/aactedutool/)에 맞춘 기본 경로
+    base: '/aactedutool/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
